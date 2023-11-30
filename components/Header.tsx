@@ -19,7 +19,7 @@ function Header() {
               width={50}
             />
           </div>
-          <h1 className='font-bold text-xl'>Dropbox</h1>
+          <h1 className='font-bold text-xl'>Decoded Arrays</h1>
         {/* </div> */}
       </Link>
 
