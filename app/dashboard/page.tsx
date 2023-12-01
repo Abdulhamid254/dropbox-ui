@@ -1,9 +1,14 @@
+import Dropzone from '@/components/Dropzone';
+import { auth } from '@clerk/nextjs'
 import React from 'react'
 
-function page() {
+function Dashboard() {
+  const { userId } = auth();
   return (
-    <div>page</div>
+    <div>
+      <Dropzone/>
+    </div>
   )
 }
 
-export default page
+export default Dashboard
